@@ -1,0 +1,334 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img {
+    padding-right: 600px;
+    padding-top: 5px;
+}
+
+
+#cabecalho {
+    background-color: #333;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 99;
+    width: 1500px;
+    top: 0%;
+}
+
+#cabecalho ul p a{
+    color: white;
+}
+
+#cabecalho .navegacao .listen{
+    margin-left: -500px;
+}
+
+#cabecalho ul p a:hover {
+    border: 2px solid #AA8E46;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #AA8E46;
+}
+
+.barradebusca {
+    justify-content: center;
+    text-align: center;
+}
+
+.pesquisa {
+    width: 500px;
+    padding-left: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.pesquisa input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    outline: none;
+}
+
+.pesquisa button {
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.navegacao nav a {
+    text-decoration: none;
+}
+
+.navegacao nav ul {
+    margin-right: 90px;
+    margin-left: -500px;
+    cursor: pointer;
+}
+
+.corpo {
+    padding-top: 170px;
+    position: relative;
+    width: 100%;
+    height: 568px;
+    background-size: cover;
+    background-image: url(../img/Fotografia.png);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+.corpo h1,
+.corpo p {
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+
+.navegacao nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 600px;
+}
+
+#fotos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fotos img:hover  {
+    transform: scale(0.9);
+    
+}
+#fotos2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+}
+#fotos2 img:hover  {
+    transform: scale(0.9);
+    
+}
+#parte3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background: #333;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parte3 img{
+    border: #fff;
+}
+
+
+.titulo {
+    padding: 15px;
+}
+
+.sobrenos {
+    margin: 20px;
+    padding: 20px;
+}
+
+#style {
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    width: 700px;
+    margin-left: 50px;
+
+}
+
+#style h2 {
+
+    padding: 20px;
+}
+
+#style h3 {
+
+    padding: 20px;
+}
+
+#rodape {
+    background-color: #333;
+}
+
+.organizartext {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding: 20px;
+}
+
+.organizartext div {
+    padding: 50px;
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+
+.overlay {
+    background-color: #000;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#titulo1 h3 {
+    padding-bottom: 20px;
+
+}
+
+#titulo2 h3 {
+    padding-bottom: 20px;
+}
+
+#titulo1 {
+    margin-right: 200px;
+}
+
+#titulo2 {
+    margin-left: 100px;
+}
+
+#style h2 {
+    color: #000;
+}
+
+.navegacao a {
+    color: black;
+}
+
+#tipos h3 {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.click {
+    cursor: pointer;
+}
+
+.TextPort{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #333;
+}
+
+
+.Portifolio{
+ height: 1000px;
+}
+
+
+#formulário{
+    padding-top: 30px;
+    display: flex;
+    justify-content: right;
+    padding-right: 200px;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+  #formulário form input{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    outline: none;
+    box-shadow: 0px 8px 8px -5px #00000033;
+    width: 450px;
+    height: 22px;
+    border: 1px solid #AA8E46;
+}
+
+#formulário form textarea{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    outline: none;
+    box-shadow: 0px 8px 8px -5px #00000033;
+    width: 450px;
+    resize: none;
+    border: 1px solid #AA8E46;
+}
+
+#formulário img{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 8px -5px #00000033;
+    border: 1px solid #AA8E46;
+}
+.mar{
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 5px;
+    background:  #fffefe;
+    color: #AA8E46;
+    border: none;
+    padding: 13px;
+    width: 470px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #AA8E46;
+    box-shadow: 0px 8px 8px -5px #00000033;
+    }
+
+  .btn:hover {
+    background: #e8e7e7;
+  }
+
+  .btn:active{
+    top: 1px;
+  }
+
+  .trabalho{
+    padding-top: 25px;
+    padding-right: 120px;
+  }
